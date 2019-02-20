@@ -1,60 +1,164 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
 
 <head>
     <meta charset="utf-8">
     <title>My-Basic-Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="name pt-3 pb-3">
+    <div class="container-full-width head-nav">
+        <div class="row">
+        <div class="col-md-3 col-lg-6 col-sm-12 col-xs-12 name  pt-3 pb-3 ml-0">
             <h3>Lalitha Pelluri</h3>
-            <div class="list pr-5 mr-4  align right">
+        </div> 
+        <div class="col-md-9 col-lg-6 col-sm-12 col-xs-12 pl-5 mt-1">
+            <div class="list align right">
                 <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
+                    <li class="nav-item about">
+                        <span class="nav-link active" href="#">About</span>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                    <li class="nav-item port">
+                        <span class="nav-link" href="#">Portfolio</span>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                    <li class="nav-item contact">
+                        <span class="nav-link" href="#">Contact</span>
                     </li>
                 </ul>
             </div>
+            </div>
         </div>
-    </div>
-    <div class="container-main">
-        <div class="about-me mt-5">
-    <div class="row pl-5 pr-4">
-        <h3 id="heading-text">About Me</h3>
-        <div class="row">
-            <div class="col-md-3 pl-5">
-            <img src="assets/images/images.jpeg" /></div>
-            <div class="col-md-8 pl-3"
-            <p id="stext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere finibus ante. Etiam quis n\ ullamcorper
-                velit. Suspendisse potenti. Suspendisse hendrerit leo ut blandit fermentum. Praesent varius n\ mollis semper.
-                Duis nisi metus, aliquet a nisi eu, interdum accumsan leo. Sed diam massa, convallis id n\ urna ut, molestie
-                volutpat ligula. Morbi commodo, ante a mollis aliquet, quam ipsum dapibus est, a tincidunt odio sapien et
-                risus. Nulla porta diam eget aliquet semper. n\ Sed elementum ipsum quis mollis n\ tempor. Etiam sit amet
-                hendrerit diam. Nam n\ sodales nisi at posuere mollis. Maecenas felis leo, n\ scelerisque condimentum turpis
-                vel, volutpat pharetra neque.</p>
         </div>
-        <p id="blah">Sed blandit mauris at sagittis tempor. Vivamus a congue odio, id vulputate nisi.n\ Donec ut lacus placerat purus
-            molestie semper. In efficitur egestas porta. Quisque id venenatis purus. Suspendisse sodales ultricies metus,
-            eget consequat mi mollis vitae. Curabitur cursus, nulla vitae porta scelerisque, dui sapien porttitor arcu, vitae
-            porttitor leo velit a tellus. Nullam ut velit a tellus dictum sagittis. Donec a vehicula ex. Sed tempor sit amet
-            lacus quis posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n
-            Ut in odio id lacus vestibulum venenatis dictum tincidunt mauris. Maecenas nec nulla dignissim nibh tempor lobortis.
-            Etiam ut lobortis nulla. Sed consectetur enim urna, sed efficitur sem facilisis n\ euismod.</p>
+<div class="jumbotron main ml-2">
+  <div class="container-full-width about-me">
+      <div class="row">
+          <div class="col-md-2 col-sm-10 col-xs-12 ml-3">
+              <h2 id="head">AboutMe</h2>
+          </div>
+      </div>
+    <div class="row"> 
+        <div class="col-md-2 col-sm-10 col-xs-12">
+    <img src="assets/images/images.jpeg"/>
+        </div>
+        <div class="col-md-9 col-sm-10 col-xs-12">
+    <p id="paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere 
+            finibus ante. Etiam quis ullamcorper velit. Suspendisse potenti. Suspendisse n\
+            hendrerit leo ut blandit fermentum. Praesent varius mollis semper. Duis nisi 
+            metus, aliquet a nisi eu, interdum accumsan leo. Sed diam massa, convallis id 
+            urna ut, molestie volutpat ligula. Morbi commodo, ante a mollis aliquet, quam
+            ipsum dapibus est, a tincidunt odio sapien et risus. Nulla porta diam eget 
+            aliquet semper. Sed elementum ipsum quis mollis tempor. Etiam sit amet hendrerit
+            diam. Nam sodales nisi at posuere mollis. Maecenas felis leo, scelerisque 
+            condimentum turpis vel, volutpat pharetra neque.Proin volutpat placerat vehicula. 
+            Vivamus porta molestie odio, et finibus justo ullamcorper vitae. Curabitur faucibus
+            metus sit amet diam ullamcorper imperdiet. Etiam mattis eleifend sagittis. Cras vel
+            blandit justo. Nulla nec ante a nibh fringilla porta at a ante. Integer aliquam odio
+            ex, eget posuere lorem ultricies tristique.Sed blandit mauris at sagittis tempor. 
+            Vivamus a congue odio, id vulputate nisi. Donec ut lacus placerat purus molestie semper. 
+            In efficitur egestas porta.</p>
+            </div>
+            </div>  
+            <div class="row ml-4 mr-3">
+            <p id="sample-text">Quisque id venenatis purus. Suspendisse sodales ultricies n\
+            metus, eget consequat mi mollis vitae. Curabitur cursus, nulla vitae porta scelerisque,n\
+            dui sapien porttitor arcu, vitae porttitor leo velit a tellus. Nullam ut velit a tellus n\
+            dictum sagittis. Donec a vehicula ex. Sed tempor sit amet lacus quis posuere. Orci varius n\
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in odio id n\
+            lacus vestibulum venenatis dictum tincidunt mauris. Maecenas nec nulla dignissim nibh n\ 
+            tempor lobortis.Etiam ut lobortis nulla. Sed consectetur enim urna, sed efficitur sem n\
+            facilisis euismod. Aliquam ullamcorper felis nec tortor eleifend, vitae luctus lorem n\
+            ullamcorper. Maecenas tempus ante elit, eu vestibulum augue aliquet pharetra. Donec feugiat n\
+            fermentum velit, quis dapibus arcu aliquet eget. Sed suscipit aliquam dictum. Donec ultricies n\
+            vel dolor mollis aliquam. Nam bibendum consectetur massa id dignissim. In eget ante eget diam n\
+            vestibulum tristique interdum eu magna. Duis pulvinar orci massa, at laoreet magna luctus vitae.n\
+            Suspendisse cursus vel tortor id mollis.
+    </p>
     </div>
+  </div>
 </div>
-</div>
-</div>
+<div class="jumbotron footer ml-2">
+        <h6>copyright</h6>
+    </div>
+
 </body>
 
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head>
+            <meta charset="utf-8">
+            <title>My-Basic-Portfolio</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
+            <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+
+            <div class="container main">
+                    <div class="row">
+                        <div class="my-name col-md-3 col-sm-12">
+                            <h5>Lalitha Pelluri</h5>
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <ul class="mr-5 nav justify-content-end navigation">
+                                <li class="nav-item about">
+                                    <span class="nav-link active" href="#">About</span>
+                                </li>
+                                <li class="nav-item port">
+                                    <span class="nav-link" href="#">Portfolio</span>
+                                </li>
+                                <li class="nav-item contact">
+                                    <span class="nav-link" href="#">Contact</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container grey">
+                        <div class="card about-me">
+                            <div class="row mt-3">
+                                <div class="col-md-4 col-sm-12">
+                                    <h5 class="header ml-4">AboutMe</h5>
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-3 col-sm-12">
+                                    <img src="assets/images/images.jpeg" alt="..." class="img-thumbnail ml-4">
+                                </div>
+                          <div class="col-md-9 col-sm-12 pr-5">
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec purus vitae nulla vulputate cursus. 
+                            Duis sit amet dictum nunc, eget dapibus leo. Nullam euismod ligula a sem egestas ornare. Nulla sodales odio a ultrices 
+                            eleifend. Curabitur eget sodales neque, scelerisque viverra tortor. Morbi a varius ipsum. Nullam ut vulputate purus, 
+                            at viverra est. Curabitur sodales nulla at finibus tempus. Phasellus viverra augue at nulla tristique, non bibendum nulla lacinia.
+                            Proin orci lectus, facilisis viverra arcu nec, ullamcorper bibendum nunc. Class aptent taciti sociosqu ad litora torquent per 
+                            conubia nostra, per inceptos himenaeos.In orci lorem, auctor quis sodales et, finibus ac ipsum.Contrary to popular belief, Lorem Ipsum
+                            is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+                            and going through the cites of the word in classical literature, discovered the undoubtable source. </p> 
+                          </div>
+                          <div class="col-md-12 col-sm-12">
+                            <p class="paragraph ml-4 pr-5">Lorem Ipsum comes from sections 1.10.32 
+                            and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the 
+                            theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in 
+                            section 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 
+                            from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 
+                            translation by H. Rackham.
+                        </p>
+                      </div>
+                      </div>
+                      </div>
+                <div class="row">
+                        <div class="cardfooter col-md-12 col-sm-12">
+                            <h5>Copyright</h5>
+                        </div>
+            </div>
+    </body>
 </html>
